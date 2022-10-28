@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hit the Goal</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1><strong>FACE RECOGINATION WEB APP</strong></h1>
+        <br><br><hr>
+        <h6><strong>Modal is trained to identify the following objects</strong></h6>
+        <br>
+        <br>
+        <h3 id="me"><strong>Me</strong></h3>
+        <br>
+        <h3 id="father"><strong>Father</strong></h3>
+        <br>
+        <h3 id="brother"><strong>Brother</strong></h3>
+        <br>
+        <h3 id="bunny"><strong>Me and my bunny</strong></h3>
+        <br><br><br><br>
+        <h2><strong>Your webcame</strong></h2>
+        <br><br>
+        <div id="camera"></div>
+        <br>
+        <button id="capture_img" onclick="Capture();" class="btn btn-danger" >Capture Image</button>
+        <br><br>
+        <h2><strong>Your captured image</strong></h2>
+        <br><br>
+        <div id="captured_img"></div>
+        <br>
+        <button id="Identify_img" class="btn btn-warning" onclick="identify();">Identify Image</button>
+        <br><br><br>
+        <h2><strong>Family member name and the accuracy of the image/desision :-</strong></h2>
+        <br><br>
+        <div id="list_accuracy">
+            <h3>
+                <strong>
+                    Me - 
+                </strong>
+            </h3>
+            <h3>
+                <strong>
+                    Father - 
+                </strong>
+            </h3>
+            <h3>
+                <strong>
+                    Brother - 
+                </strong>
+            </h3>
+            <h3>
+                <strong>
+                    Me and my bunny - 
+                </strong>
+            </h3>
+
+        </div>
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>

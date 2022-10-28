@@ -1,0 +1,24 @@
+body{
+    background-color: yellow;
+}
+#me#father#brother{
+    background-color: blue 60px;
+
+}
+#bunny{
+    background-color: blue 50px;
+}
+h3{
+    font-style: normal;
+    font-family: sans-serif;
+}
+#camera{
+    border: 2px dashed blue;
+    width: 400px;
+    height: 300px;
+}
+#captured_img{
+    border: 2px dashed blue;
+    width: 400px;
+    height: 300px;
+}
